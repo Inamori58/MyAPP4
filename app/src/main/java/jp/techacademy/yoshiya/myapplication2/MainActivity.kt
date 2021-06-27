@@ -11,8 +11,10 @@ class MainActivity : AppCompatActivity() {
 
         val human = Human("山田", 25, hobby = "山登り")  // 名前を山田、年齢25歳、趣味は山登りで、Humanのインスタンスを作る
         human.say()
+        human.think()
 
-        val human2 = Human("山田", 25, hobby = "山登り") // 名前を山田、年齢25歳、趣味は山登りで、Human2のインスタンスを作る
+        val human2 = Human("田中", 30, hobby = "魚釣り") // 名前を山田、年齢25歳、趣味は山登りで、Human2のインスタンスを作る
+        human2.say()
         human2.think()
     }
 }
